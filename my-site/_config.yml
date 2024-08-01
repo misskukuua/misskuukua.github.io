@@ -27,15 +27,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://misskukuua.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: jekyll
 
 # Build settings
-# theme: minima
-# plugins:
-#   - jekyll-feed
-
 theme: jekyll-theme-primer
 
+# Uncomment the following if you use remote themes
 # remote_theme: pages-themes/hacker@v0.2.0
 # plugins:
 #   - jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -48,18 +45,19 @@ theme: jekyll-theme-primer
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
+# Navigation configuration (uncomment and adjust if needed)
 # navigation:
 #   - title: "Home"
 #     url: "/"
