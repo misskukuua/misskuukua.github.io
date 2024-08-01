@@ -67,3 +67,8 @@ theme: jekyll-theme-primer
 #     url: "/my/"
 #   - title: "Contact"
 #     url: "/contact/"
+
+sass:
+  style: compressed # or :expanded for debugging
+  load_paths:
+    - assets/css
